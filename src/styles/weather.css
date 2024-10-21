@@ -1,0 +1,134 @@
+.weather-background {
+    background-color: rgb(213, 213, 248);
+    margin-top: 3%;
+    border-radius: 20px;
+    padding: 5%;
+    box-shadow: 0 4px 20px rgba(152, 19, 156, 0.9); 
+}
+
+#icon {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 6px;
+    padding-bottom: 5px;
+}
+
+.humidity-wind-speed {
+    margin-top: 2%;
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 30px;
+    padding-top: 60px;
+}
+h1{
+    color: rgb(242, 208, 255);
+}
+
+h2 {
+    color: #2e2271;
+}
+.search-bar{
+    margin-top: 7%;
+    display: flex;
+    margin-left: 25%;
+    align-items: center; 
+   
+    
+    
+}
+#city-not-found{
+    margin-left: 30px;
+    font-weight: 700;
+    color: rgb(71, 71, 78);
+    padding-left: 6px;
+    font-size: 10 px;
+    padding-top: 5px;
+}
+
+.search-container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: 35px 0;
+}
+
+
+input[type="search"] {
+ 
+  padding: 12px 40px 12px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 25px; 
+  background-color: #f9f9f9;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  outline: none;
+}
+
+
+
+input[type="search"]::placeholder {
+  color: #aaa;
+  transition: all 0.3s ease;
+}
+
+input[type="search"]:focus::placeholder {
+  opacity: 0;
+}
+
+
+.search-container i {
+ 
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #aaa;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+input[type="search"]:focus + i {
+  color: #9057df;
+}
+
+.search-button-container {
+    display: inline-block;
+    position: relative;
+  }
+  
+
+  .search-button {
+    margin-left: 2%;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #efefef; 
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    outline: none;
+  }
+
+  #search{
+    border: none;
+  }
+  
+  .search-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
+  .humidity-speed-text{
+    margin-left: 15px;
+    align-items: left;
+    justify-content: left;
+    align-content: left;
+    text-align: left;
+    
+  }
+  .humidity{
+    display: flex;
+  }
+  .wind-speed{
+    display: flex;
+  }
